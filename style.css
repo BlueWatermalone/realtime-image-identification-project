@@ -1,0 +1,51 @@
+.heading {
+    font-size: 23px;
+    width: 100%;
+    margin: 0px;
+    box-shadow: 4px 4px 5px #3eb9df;
+}
+
+.header_div {
+    float: none;
+    background: white;
+    padding: 10px;
+    border-radius: 20px;
+    color: black;
+    box-shadow: 4px 4px 5px #3eb9df;
+}
+
+.header_div2 {
+    font-size: 18px;
+}
+
+.result_para_tag {
+    box-shadow: 4px 4px 5px #3eb9df;
+    font-size: 20px;
+}
+
+.copy_right_footer {
+    position: fixed;
+    color: ghostwhite;
+    bottom: 0;
+    width: 100%;
+    background-color: gray;
+    line-height: 3;
+    text-align: center;
+    font-family: 'Poor Story', cursive;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+canvas {
+    border: 5px solid ghostwhite;
+    border-radius: 20px;
+    margin-top: 150px;
+    animation-name: example;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes example {
+    from {box-shadow: 5px 5px 5px #00a09d;}
+    to {box-shadow: 5px 5px 5px #9500ff;}
+}
